@@ -512,6 +512,13 @@
   gap: 50px;
 }
 
+.segment-footer-grid > div:first-child > p {
+  max-width: 470px;
+  margin: 0;
+  color: #70839a;
+  font-size: 0.86rem;
+}
+
 .segment-footer-links {
   display: flex;
   align-items: center;
