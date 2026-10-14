@@ -22,4 +22,6 @@ jobs:
       - name: Check pages and local references
         run: python tools/check_site.py
       - name: Check JavaScript syntax
-        run: node --check assets/script.js
+        run: |
+          node --check assets/script.js
+          node --check modelos/assets/vitrine.js
